@@ -5,6 +5,64 @@
 <head>
   <meta charset="utf-8" />
 
+   <style amp-boilerplate>
+      body {
+        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      }
+      @-webkit-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+      @-moz-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+      @-ms-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+      @-o-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+      @keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+    </style>
+    <noscript
+      ><style amp-boilerplate>
+        body {
+          -webkit-animation: none;
+          -moz-animation: none;
+          -ms-animation: none;
+          animation: none;
+        }
+      </style></noscript
+    >
 
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
@@ -16,7 +74,11 @@
   <link rel="canonical" href="https://www.saybyebugs.com/article" />
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
 
-  <link rel="stylesheet" href="./css/main.min.css" />
+
+  <style amp-custom>
+  @import url('./css/main.min.css');
+  </style>
+  
 </head>
 
 <body>
@@ -50,7 +112,7 @@
     <div class="conteiner">
       <div class="logo">
         <a class="logo-link" href="https://www.saybyebugs.com/" rel="home">
-          <amp-img alt="SayByeBugs" src="/img/logonew.png" width="250" height="61" layout="responsive">
+          <amp-img alt="SayByeBugs" src="./img/logonew.png" width="250" height="61" layout="responsive">
           </amp-img>
         </a>
       </div>
@@ -81,7 +143,7 @@
           </p>
 
           <a class="article-img-link" href="https://www.saybyebugs.com" target="_blank">
-            <amp-img alt="bed-bug-picture-1" src="/img/bed-bug-picture-1-300x219.jpg" width="300" height="219"
+            <amp-img alt="bed-bug-picture-1" src="./img/bed-bug-picture-1-300x219.jpg" width="300" height="219"
               layout="responsive">
           </a>
           <p class="text">
