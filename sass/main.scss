@@ -1,17 +1,9 @@
 @import './utils/variables';
 @import './utils/reset';
-@import './utils/hidden';
-@import './components/logo';
-@import './components/_main_button.scss';
-@import './components/sosial-list';
+
 @import './components/conteiner';
-@import './components/menu';
-@import './components/page-header';
-@import './components/hero';
-@import './components/advantage';
-@import './components/about';
-@import './components/team';
-@import './components/client';
-@import './components/footer';
-@import './components/modal';
-@import './components/feedback';
+@import './components/header';
+@import './components/navigation';
+@import './components/article';
+@import './components/sosial';
+@import './components/comments';

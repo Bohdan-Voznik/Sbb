@@ -1,26 +1,12 @@
 :root {
   --primary-bg-color: #ffffff;
-  --secondary-bg-color: #f5f4fa;
-  --footer-bg-color: #2f303a;
+  --header-bg-color: #1e1e1e;
 
-  --primary-text-color: #757575;
-  --secondary-text-color: #ffffff;
-  --title-text-color: #212121;
+  --primary-text-color: #1e1e1e;;
+  --secondary-text-color: #9e9e9e;
 
-  --logo-white-color: #ffffff;
-  --logo-blask-color: #000000;
+  --link-text-color: #0000FF;
 
-  --accent-color: #2196f3;
-}
-
-@mixin font($ff: Roboto, $fw: 400, $fs: 12px, $lh: 1.62, $ls: 0.03em, $col: currentColor) {
-  font-family: $ff;
-  font-weight: $fw;
-  font-size: $fs;
-  line-height: $lh;
-  letter-spacing: $ls;
-  color: $col;
-}
-.pages {
-  background-color: var(--primary-bg-color);
+  --accent-color: #c51818;
+  --accent-heder-color: #ffffff;
 }

@@ -1,0 +1,28 @@
+.nav-list {
+  display: flex;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  font-family: Lato;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+  font-size: 11px;
+  line-height: 16.5px;
+  font-size: 11px;
+  &:hover {
+    color: var(--accent-heder-color);
+  }
+}
+
+.logo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo-link {
+    display: block;
+  width: 250px;
+  height: 61px;
+}

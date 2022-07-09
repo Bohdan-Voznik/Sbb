@@ -1,0 +1,23 @@
+.navigation-header {
+      background-color: var(--header-bg-color);
+  
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.current-date {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 16.5px;
+}
+

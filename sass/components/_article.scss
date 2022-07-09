@@ -1,0 +1,95 @@
+.page {
+    padding-top: 10px;
+}
+
+.article {
+    width: 100%;
+
+    @media screen and (min-width: 1000px) {
+        width: 66.6%;
+    }
+
+
+}
+
+.article-title {
+    margin-bottom: 30px;
+
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    color: var(--primary-text-color);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+.main-video {
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: var(--primary-text-color);
+    margin-bottom: 20px ;
+}
+.second-title {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 23.4px;
+    line-height: 30.42px;
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+
+    &.link:hover {
+            color: var(--accent-color);
+        }
+}
+
+.article-img-wrap {
+position: relative;
+}
+
+.article-img-text{
+width: calc(100% - 320px);
+}
+
+.article-img-strong {
+width: calc(100% - 320px);
+@media screen and (min-width: 816px) {
+        width: 100%;
+    }
+
+}
+
+.article-img-link {
+    float: right;
+
+    display: inline;
+    width: 300px;
+    height: 219px;
+}
+
+.article-text-link {
+    color: var(--link-text-color);
+     text-decoration: underline
+}
+
+.second-video {
+    margin: 0 auto;
+    width: 640px;
+    height: 360px;
+    margin-bottom: 28px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
